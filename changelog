@@ -1,0 +1,156 @@
+Highlights & Device Specific Changes:
+Build type: Unofficial
+Build variants: GApps
+Device: OnePlus Nord 5 (lexus)
+Device maintainer: Javi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✦
+INFINITYX
+ANDROID 17
+ONEPLUS NORD 5
+LEXUS
+✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# InfinityX Android 17 — Initial Lexus Release
+
+## 📱 Device & Device Tree
+
+* Updated the OnePlus Nord 5 (`lexus`) device tree for the InfinityX Android 17 base.
+* Updated device configuration and platform dependencies for the SM8650 common tree.
+* Updated device information and model configuration.
+* Set the target screen density to **530 DPI**.
+* Updated device overlays and RRO configuration.
+* Updated the punch-hole display overlay configuration.
+* Added Android 17 Treble labeling tracking support.
+* Updated SELinux device policy for Android 17 platform labeling requirements.
+* Cleaned up legacy device configuration and overlays.
+* Updated device sources and vendor configuration from the latest available device base.
+
+## 🖥️ Display & Refresh Rate
+
+* Added refresh-rate switching timers.
+* Improved minimum and peak refresh-rate configuration.
+* Relocated peak and minimum refresh-rate configuration to the Lineage overlay.
+* Set the default game refresh rate to **144 Hz**.
+* Updated display-related Oplus interfaces.
+* De-blobbed **Oplus DisplayColorFeature V1**.
+* Added explicit build support for the DisplayColorFeature V1 NDK interface.
+* De-blobbed the **Oplus MixLut3D V1** display interface.
+* Updated display overlays for the Nord 5 punch-hole panel.
+* Enabled `debug.sf.auto_latch_unsignaled` for improved SurfaceFlinger behavior.
+* Updated graphics common HAL dependencies to **V7**.
+
+## 🚀 Performance & Responsiveness
+
+* Updated graphics and display configuration for Android 17.
+* Refined SurfaceFlinger display behavior.
+* Updated Soong configuration variables required by the current source base.
+* Improved vendor library compatibility with the SM8650 platform.
+* Added required **APS Turbo** libraries to the public vendor libraries list.
+* Updated platform dependencies for the current Android 17 device configuration.
+* Refined device-specific performance and display configuration.
+
+## 📳 Haptics & Vibration
+
+* Switched the device to the **LiveTap vibrator HAL**.
+* Updated device configuration for the LiveTap haptic implementation.
+* Improved compatibility with the current Android 17 vibrator framework.
+
+## 📶 Connectivity & Telephony
+
+* Enabled **VoNR** support.
+* Added carrier configuration for **VoNR on Jio**.
+* Updated telephony and carrier configuration for the SM8650 common platform.
+* Updated vendor configuration required for the current connectivity stack.
+
+## 🧩 Oplus Hardware
+
+* Updated Oplus hardware interface handling.
+* De-blobbed selected Oplus hardware interfaces.
+* Updated Oplus display-related HAL configuration.
+* Added required compatibility configuration for Oplus hardware interfaces.
+* Updated vendor-side hardware dependencies for Android 17.
+* Updated compatibility handling for the current SM8650 common device tree.
+
+## 📦 Vendor & Blobs
+
+* Updated vendor configuration for the OnePlus Nord 5.
+* Updated OOS vendor sources and required proprietary blobs.
+* Added **APS Turbo** libraries to `vendor.public.libraries.txt`.
+* Updated vendor dependencies for the SM8650 platform.
+* Updated Soong configuration for the current vendor layout.
+* Cleaned up obsolete vendor and device configuration.
+* Updated proprietary library compatibility for Android 17.
+
+## 🛡️ SELinux & Security
+
+* Added Android 17 Treble labeling tracking.
+* Updated SELinux device policy for Android 17 platform labeling requirements.
+* Updated device/vendor policy compatibility.
+* Cleaned up legacy policy configuration.
+* Updated platform/vendor labeling required by the Android 17 framework.
+* Improved compatibility with the current Android 17 SELinux policy structure.
+
+## 🛠️ Build System & Compatibility
+
+* Updated the device tree for the current InfinityX Android 17 source layout.
+* Updated Soong namespaces and configuration for the current source base.
+* Updated Soong configuration variables to the correct boolean types.
+* Updated graphics common HAL dependencies.
+* Cleaned up legacy device configuration.
+* Updated common device dependencies for Android 17.
+* Updated vendor compatibility configuration.
+* Removed obsolete device configuration and legacy overlay handling.
+* Updated build dependencies required by the current SM8650 platform.
+
+## 📱 Device Configuration
+
+* Updated the device model information used by Settings.
+* Updated display density configuration to **530 DPI**.
+* Updated refresh-rate overlays.
+* Updated punch-hole display configuration.
+* Updated device-specific RRO configuration.
+* Updated common SM8650 device dependencies.
+* Refined the overall device configuration for Android 17.
+
+## ⚡ Power & System
+
+* Updated device-specific system configuration.
+* Refined display and refresh-rate behavior for power efficiency.
+* Updated vendor configuration for the current Android 17 platform.
+* Updated platform dependencies required by the SM8650 common tree.
+* Cleaned up obsolete configuration inherited from previous device revisions.
+
+## 📱 Overall
+
+This is the initial **InfinityX Android 17** release for the **OnePlus Nord 5 (lexus)**.
+
+The update brings a refreshed device tree and SM8650 common configuration for Android 17, with improvements across display handling, refresh-rate management, Oplus hardware interfaces, haptics, connectivity, vendor compatibility and SELinux integration.
+
+The device now includes **LiveTap vibrator HAL support, 144 Hz game refresh-rate configuration, refresh-rate switching timers, 530 DPI configuration, VoNR support, APS Turbo libraries, updated Oplus display interfaces and Android 17 Treble labeling support**.
+
+The display stack has also been updated with refreshed Oplus display interfaces, MixLut3D and DisplayColorFeature handling, improved SurfaceFlinger configuration and updated refresh-rate overlays.
+
+This build is provided as an **UNOFFICIAL InfinityX Android 17 build** for the OnePlus Nord 5 (`lexus`).
+
+## 📌 Device Information
+
+* **Device:** OnePlus Nord 5
+* **Codename:** `lexus`
+* **SoC:** Snapdragon 8s Gen 3
+* **Platform:** SM8650 common
+* **Android:** 17
+* **ROM:** InfinityX
+* **Build type:** UNOFFICIAL
+* **Maintainer:** stahed
+
+## 🤝 Credits
+
+* Trees: [@grepfox](https://t.me/grepfox)
+* [@davidev985](https://t.me/davidev985) — for help
+* OnePlus Nord 5 contributors
+* SM8650 common device tree contributors
+* InfinityX contributors
+* LineageOS contributors
